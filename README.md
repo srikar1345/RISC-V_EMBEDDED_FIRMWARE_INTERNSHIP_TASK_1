@@ -20,7 +20,15 @@ An **API (Application Programming Interface)** is the "contract" that defines ho
 * **Portability:** The same application code (`main.c`) can run on different hardware platforms as long as the API remains the same.
 * **Modularity:** It allows developers to work on the application layer without needing to worry about the underlying hardware driver logic.
 * **Maintenance:** Changes in hardware only require updates to the library/driver, not the entire application codebase.
+Embedded System: Without API vs. With API
 
+**Without API:**
+`Application Code` -> `Direct Hardware Register Access` -> `Hardware (GPIO Pins)`
+
+**With API:**
+`Application Code (main.c)` -> `API / Driver Functions (gpio.h / gpio.c)` -> `Hardware (GPIO Pins)`
+
+---
 
 
 ### What was understood from the Lab Code?
