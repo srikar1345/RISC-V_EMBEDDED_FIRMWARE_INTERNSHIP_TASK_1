@@ -1,11 +1,8 @@
 # Task 1: Firmware Library Fundamentals
 
-## 1. Objective
-The goal of this task is to understand how firmware libraries are structured, how application code utilizes APIs, and to simulate hardware behavior using a C-based development environment.
 
----
 
-## 2. Core Concepts
+## 1. Theoretical Quetions 
 
 ### What is a Firmware Library?
 A **Firmware Library** is a collection of code (functions and source files) that runs on or simulates embedded hardware. It serves as the intermediary between the high-level application logic and the low-level hardware registers. 
@@ -40,7 +37,7 @@ The lab code demonstrates the fundamental **separation of concerns** in embedded
 
 ---
 
-## 3. GPIO Function Overview
+## 2. GPIO Function Overview
 
 | Function | Meaning |
 | :--- | :--- |
@@ -50,7 +47,7 @@ The lab code demonstrates the fundamental **separation of concerns** in embedded
 
 ---
 
-## 4. Lab Code Implementation
+## 3. Lab Code Implementation
 
 ### gpio.h
 ```c
@@ -131,7 +128,7 @@ int main(void)
 
 
 ```
-## 5. Final output
+## 4. Final output
 
 ### Command
 ```c
