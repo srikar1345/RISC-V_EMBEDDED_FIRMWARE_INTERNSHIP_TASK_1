@@ -1,12 +1,11 @@
-Here is the full Markdown code for your **`evidence.md`** file, formatted so you can copy and paste it directly. I have included placeholders where you should insert your specific filenames or links.
 
-```markdown
 # Task-2: Hardware Validation Evidence
 
 This document provides definitive proof of successful firmware bring-up, UART communication, and GPIO physical control on the VSDSquadron Mini RISC-V board.
 
 ---
 
+```markdown
 ## 1. UART Evidence
 The UART communication was validated using the PlatformIO Serial Monitor to confirm real-time telemetry from the RISC-V core.
 
