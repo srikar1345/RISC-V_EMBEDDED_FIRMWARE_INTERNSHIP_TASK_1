@@ -101,4 +101,3 @@ Waveform Analysis: Used the Arduino Serial Plotter to visualize the output, conf
 
 ```
 
-**Would you like me to help you set `main` as the default branch in your GitHub settings so that this folder structure is the first thing anyone sees?**
